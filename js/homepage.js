@@ -1,3 +1,49 @@
+// ================ FEATURED SECTION SCRIPTS ================
+// Might need text or other data so featuredData is an array of objects
+const featuredData = [
+  {
+    image: 'https://moonrift.files.wordpress.com/2021/04/soulguardofficial.png'
+  },
+  {
+    image: 'https://moonrift.files.wordpress.com/2021/03/resized-toy-kingdom-2-1.png?w=1024'
+  },
+  {
+    image: 'https://moonrift.files.wordpress.com/2021/03/raptornest.png?w=1024'
+  },
+  {
+    image: 'https://moonrift.files.wordpress.com/2021/03/lightningstone.png?w=840'
+  }
+]
+
+var timer;
+var slideId = 0;
+setCarouselImage(slideId);
+
+function nextSlide() {
+  slideId++;
+  if (slideId > featuredData.length - 1) {
+    slideId = 0;
+  }
+  setCarouselImage(slideId);
+}
+
+function setCarouselImage(id) {
+  // Change background image to slide id
+  let featuredImage = document.getElementById('featured-img');
+  changeBg(featuredImage, featuredData[id].image);
+  // Go to next slide every set interval
+  clearTimeout(timer);
+  timer = setTimeout(() => nextSlide(), 8 * 1000);
+}
+
+// Change background of element 'el' to 'imgPath'
+function changeBg(el, imgPath) {
+  let imgString = 'url(' + imgPath + ')';
+  el.style.background =  imgString;
+  el.style.backgroundPosition = "center";
+  el.style.backgroundRepeat = "no-repeat";
+}
+
 // ===================== NEWS TEMPLATE =====================
 const newsData = [
   { 

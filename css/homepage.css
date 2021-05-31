@@ -12,6 +12,26 @@ body {
   margin-left: 56px;
 }
 
+/* ======================== FEATURED SECTION STYLES ======================== */
+.featured-section {
+  background: rgb(25, 26, 31);
+}
+
+.featured-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+#featured-img {
+  width: 820px;
+  height: 480px;
+  margin: 64px auto;
+  background-color: yellowgreen;
+  transition: background 1.5s linear;
+}
+
 /* ======================== NEWS SECTION STYLES ======================== */
 .news-section {
   background: whitesmoke;
