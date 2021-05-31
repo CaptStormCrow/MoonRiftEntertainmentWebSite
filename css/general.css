@@ -1,0 +1,34 @@
+/* Contains styles for components that appear on all pages
+such as the header and footer */
+
+/* ====================== FOOTER STYLES ====================== */
+footer {
+  background: black;
+  padding: 16px 0;
+  text-align: center;
+  color: rgb(189, 193, 196);
+  border-top: 1px solid rgb(108, 112, 115);
+}
+
+.footer-logo {
+  width: 124px;
+}
+
+.footer-link {
+  font-family: "Arial Black", "Arial Bold", sans-serif;
+  font-size: 16px;
+  color: rgb(189, 193, 196);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 32px;
+}
