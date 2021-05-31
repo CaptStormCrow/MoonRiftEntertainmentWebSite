@@ -3,7 +3,7 @@ such as the header and footer */
 
 /* ====================== FOOTER STYLES ====================== */
 footer {
-  background: black;
+  background: rgb(11, 12, 15);
   padding: 16px 0;
   text-align: center;
   color: rgb(189, 193, 196);
@@ -15,7 +15,8 @@ footer {
 }
 
 .footer-link {
-  font-family: "Arial Black", "Arial Bold", sans-serif;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  font-weight: bold;
   font-size: 16px;
   color: rgb(189, 193, 196);
   text-decoration: none;
