@@ -1,7 +1,69 @@
+/* ======================== GENERAL STYLES ======================== */
 body {
   margin: 0;
 }
 
+.section-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-left: 56px;
+}
+
+/* ======================== NEWS SECTION STYLES ======================== */
+.news-section {
+  background: whitesmoke;
+}
+
+.news-content {
+  color: rgb(11, 12, 15);
+  width: 90vw;
+  margin: auto;
+  padding: 32px 0;
+}
+
+#news {
+  list-style-type: none;
+  margin: 0 16px;
+  padding-top: 24px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0;
+  border-top: 1px solid rgb(188, 193, 196);
+  border-bottom: 1px solid rgb(188, 193, 196);
+}
+
+.post-thumbnail {
+  width: 280px;
+  height: 128px;
+}
+
+.post-info {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 24px;
+}
+.post-date {
+  font-family: "Sarala", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  margin: 0;
+}
+.post-title {
+  font-size: 24px;
+  margin: 0;
+}
+.post-summary {
+  font-size: 16px;
+}
+
+/* ======================== GAMES SECTION STYLES ======================== */
 .games-section {
   background: rgb(25, 26, 31);
 }
@@ -11,14 +73,6 @@ body {
   width: 90vw;
   margin: auto;
   padding: 32px 0;
-}
-
-.section-title {
-  text-transform: uppercase;
-  font-size: 32px;
-  font-family: "Sarala", "Arial Bold", sans-serif;
-  padding: 0;
-  margin-left: 56px;
 }
 
 #games {
