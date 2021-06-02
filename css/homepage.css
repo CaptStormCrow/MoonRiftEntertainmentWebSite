@@ -68,6 +68,7 @@ body {
   font-family: "Open Sans", sans-serif;
   padding-left: 24px;
 }
+
 .post-date {
   font-family: "Sarala", "Arial", sans-serif;
   font-size: 14px;
@@ -76,10 +77,12 @@ body {
   color: gray;
   margin: 0;
 }
+
 .post-title {
   font-size: 24px;
   margin: 0;
 }
+
 .post-summary {
   font-size: 16px;
 }
@@ -111,11 +114,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: white;
   text-decoration: none;
-  transition: all 1s;
-}
-
-.game-item:hover {
-  transform: scale(1.1);
+  transition: all .60s;
 }
 
 .game-item:hover {
@@ -133,6 +132,7 @@ body {
   padding: 14px 20px;
   padding-top: 4px;
 }
+
 .title {
   font-family: "Sarala", "Arial", sans-serif;
   font-size: 24px;
@@ -140,12 +140,14 @@ body {
   margin: 0;
   margin-bottom: 4px;
 }
+
 .genres {
   font-size: 16px;
   font-style: italic;
   color: rgb(188, 193, 196);
   margin: 0;
 }
+
 .price {
   color: rgb(200, 204, 207);
   text-align: right;
