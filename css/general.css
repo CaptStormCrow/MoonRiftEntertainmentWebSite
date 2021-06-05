@@ -1,6 +1,10 @@
 /* Contains styles for components that appear on all pages
 such as the header and footer */
 
+body {
+  margin: 0;
+}
+
 /* ====================== NAVBAR STYLES ====================== */
 
 .sticky {

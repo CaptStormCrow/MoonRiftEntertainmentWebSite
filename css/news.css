@@ -1,0 +1,9 @@
+.news-section {
+  background: rgb(25, 26, 31);
+  color: white;
+  min-height: 300px;
+}
+
+.news-content {
+  padding-top: 150px;
+}

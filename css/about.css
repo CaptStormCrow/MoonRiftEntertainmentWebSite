@@ -1,0 +1,9 @@
+.about-section {
+  background: rgb(25, 26, 31);
+  color: white;
+  min-height: 300px;
+}
+
+.about-content {
+  padding-top: 150px;
+}
