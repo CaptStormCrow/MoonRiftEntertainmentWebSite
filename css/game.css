@@ -72,7 +72,6 @@
 .feature {
   display: flex;
   flex-direction: row;
-  /* background: rgba(115, 106, 197, 0.74); */
   margin: 24px auto;
   justify-content: center;
 }
@@ -88,7 +87,12 @@
   text-transform: uppercase;
 }
 
+.feature-info {
+  flex: 0 0 50%;
+}
+
 .screenshot {
+  flex: 0 0 50%;
   width: 340px;
   align-self: flex-start;
   margin-top: 10px;
@@ -107,9 +111,13 @@
   display: flex;
   flex-direction: row;
   background: rgb(11, 12, 15);
-  padding: 32px 24px;
+  padding: 24px 32px;
   color: whitesmoke;
   border-radius: 4px;
+}
+
+.team-logo {
+  align-self: flex-start;
 }
 
 .socials {
