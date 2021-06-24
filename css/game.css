@@ -1,0 +1,89 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.main-content {
+  margin: 42px;
+  /* margin-top: 0; */
+}
+
+.main-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.game-title {
+  font-size: 32px;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.game-label {
+  font-family: "Sarala", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  margin: 0;
+}
+
+.download-btn {
+  border: none;
+  background: rgb(11, 12, 15);
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  font-size: 18px;
+  padding: 0 16px;
+  height: 52px;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  /* background: rgba(115, 106, 197, 0.74); */
+  margin: 24px auto;
+  justify-content: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.screenshot {
+  width: 340px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.margin-left {
+  margin-left: 32px;
+}
+
+.margin-right {
+  margin-right: 32px;
+}
