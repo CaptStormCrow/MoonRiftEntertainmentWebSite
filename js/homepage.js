@@ -88,6 +88,13 @@ addNews('news-template');
 // ===================== GAMES TEMPLATE =====================
 const gameData = [
   { 
+    title: 'Kiwi', 
+    genres: 'Arcade',
+    price: 'FREE TO PLAY', 
+    image: 'https://img.itch.zone/aW1nLzYxNTY2MDgucG5n/315x250%23c/ay6JFm.png', 
+    link: './pages/game_pages/kiwi.html' 
+  },
+  { 
     title: 'Soul Guard', 
     genres: 'Action, Adventure, 3D',
     price: 'FREE TO PLAY', 
