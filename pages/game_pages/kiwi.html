@@ -124,11 +124,18 @@
             <p class="game-title">Team Apex</p>
             <p class="game-label medium">Support them on social media!</p>
             <div>
-              <ul class="socials">
-                <li class="social-icon">one</li>
-                <li class="social-icon">two</li>
-                <li class="social-icon">three</li>
-              </ul>
+              <template id="social-media-template">
+                <li>
+                  <a class="social-link" href="#">
+                    <img
+                      class="social-icon"
+                      src="../../assets/icons/social-media/001-youtube.svg"
+                      alt="social media icon"
+                    />
+                  </a>
+                </li>
+              </template>
+              <ul id="socials" class="socials"></ul>
             </div>
           </div>
         </div>
@@ -149,5 +156,8 @@
       </div>
       <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="../../js/game_js/kiwi.js"></script>
   </body>
 </html>
