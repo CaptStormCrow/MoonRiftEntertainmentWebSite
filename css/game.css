@@ -4,6 +4,7 @@
   flex-direction: column;
   background-color: whitesmoke;
   width: 75vw;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
@@ -15,11 +16,18 @@
   /* margin-top: 0; */
 }
 
+/* ========================= ABOUT SECTION ========================= */
+
 .main-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 8px;
+}
+
+.banner {
+  width: 100%;
+  height: 340px;
 }
 
 .game-title {
@@ -37,6 +45,10 @@
   margin: 0;
 }
 
+.align-center {
+  align-self: center;
+}
+
 .download-btn {
   border: none;
   background: rgb(11, 12, 15);
@@ -45,8 +57,9 @@
   font-weight: bold;
   font-family: "Sarala", "Arial Bold", sans-serif;
   font-size: 18px;
-  padding: 0 16px;
-  height: 52px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .text {
@@ -55,6 +68,7 @@
   line-height: 1.4;
 }
 
+/* ============================ FEATURES ============================ */
 .feature {
   display: flex;
   flex-direction: row;
@@ -86,4 +100,30 @@
 
 .margin-right {
   margin-right: 32px;
+}
+
+/* ======================== TEAM SOCIAL MEDIA ======================== */
+.team-container {
+  display: flex;
+  flex-direction: row;
+  background: rgb(11, 12, 15);
+  padding: 32px 24px;
+  color: whitesmoke;
+  border-radius: 4px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon {
+  margin: 4px;
+}
+
+.medium {
+  font-size: 18px;
 }
