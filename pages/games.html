@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>MoonRift Entertainment</title>
     <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/games.css" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- Open Sans font -->
@@ -31,16 +31,43 @@
           src="../images/logo-light.png"
           alt="MoonRift logo"
       /></a>
+      <a class="nav-link" href="../index.html">Home</a>
       <a class="nav-link" href="news.html">News</a>
       <a class="nav-link" href="about.html">About</a>
     </nav>
 
-    <!-- TODO: ABOUT SECTION -->
-    <div class="about-section">
-      <div class="about-content">
-        <p>----> Games section goes here <----</p>
+    <!-- TODO: GAMES SECTION -->
+    <div class="featured-section">
+      <div class="featured-content">
+        <div id="featured-img"></div>
       </div>
     </div>
+    <div class="games-section">
+      <div class="games-content">
+        <p>----> Games section goes here <----</p>
+      </div>
+      <div class="games-section">
+        <div class="games-content">
+          <h2 class="section-title">Games</h2>
+  
+          <template id="game-template">
+            <li>
+              <a class="game-item" href="">
+                <img class="thumbnail" src="" alt="game thumbnail" />
+                <div class="game-info">
+                  <p class="title"></p>
+                  <p class="genres"></p>
+                  <p class="price"></p>
+                </div>
+              </a>
+            </li>
+          </template>
+  
+          <ul id="games"></ul>
+        </div>
+      </div>
+    </div>
+    
 
     <!-- FOOTER -->
     <footer>
@@ -56,5 +83,8 @@
       </div>
       <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="../js/homepage.js"></script>
   </body>
 </html>

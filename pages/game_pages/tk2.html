@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MoonRift Entertainment</title>
+    <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/game.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Open Sans font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Sarala font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="nav-bar">
+      <a class="nav-link" href="../games.html">Games</a>
+      <a class="nav-link" href="../moonjam.html">MoonJams</a>
+      <a class="nav-link" href="../../index.html"
+        ><img
+          class="nav-logo"
+          src="../../images/logo-light.png"
+          alt="MoonRift logo"
+      /></a>
+      <a class="nav-link" href="../../index.html">Home</a>
+      <a class="nav-link" href="../news.html">News</a>
+      <a class="nav-link" href="../about.html">About</a>
+    </nav>
+
+    <div class="main-container">
+      <!-- GAME BANNER -->
+      <img
+        class="banner"
+        src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTkzLnBuZw==/347x500/h%2BLbch.png"
+        alt="game banner"
+      />
+      <div class="main-content">
+        <!-- ABOUT -->
+        <div class="section">
+          <div class="main-bar">
+            <div>
+              <h1 class="game-title">Toy Kingdom 2</h1>
+              <p class="game-label">Developed by MoonRift Entertainment</p>
+            </div>
+            <a class="align-center" href="https://moonrift.itch.io/kiwi">
+              <button class="download-btn">Download</button>
+            </a>
+          </div>
+          <p class="text">
+            Toy Kingdom is a fast-paced, relentless first-person survival game full of dangers, magic, and toys. Play as an action figure that has landed in a mysterious toy world.  Discover and collect all of the powerful protons, if you hope to survive the night. Enter a colorful and deadly world with various environments as you discover your speed is your greatest ally. Play your way, at your own pace; but do not linger for long, nightfall brings terror.
+          </p>
+          <iframe
+            width="720"
+            height="300"
+            class="video"
+            src="https://youtu.be/Qs874BV3AiI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- FEATURES -->
+        <div class="feature reverse">
+          <div class="feature-info margin-left">
+            <h2 class="feature-title">Relentless Exploration</h2>
+            <p class="text">
+                No instructions. No hand holding. Toy Kingdom is a universe waiting to be discovered.
+            </p>
+          </div>
+          <img
+            class="screenshot"
+            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk1LnBuZw==/347x500/P0sHZc.png"
+            alt="game screenshot"
+          />
+        </div>
+
+        <div class="feature">
+          <div class="feature-info margin-right">
+            <h2 class="feature-title">Randomly Generated Environments</h2>
+            <p class="text">
+                Each game is a new map! Your luck will play a factor into how generous or unforgiving Toy Kingdom will be.
+            </p>
+          </div>
+          <img
+            class="screenshot"
+            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk2LnBuZw==/347x500/JO2ogJ.png"
+            alt="game screenshot"
+          />
+        </div>
+
+        <div class="feature reverse">
+          <div class="feature-info margin-left">
+            <h2 class="feature-title">Speed is your friend</h2>
+            <p class="text">
+                How fast can you get?
+            </p>
+          </div>
+          <img
+            class="screenshot"
+            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk0LnBuZw==/347x500/9TrApr.png"
+            alt="game screenshot"
+          />
+        </div>
+
+        <!-- TEAM SOCIAL MEDIA -->
+        <div class="team-container">
+          <img
+            class="team-logo"
+            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk1LnBuZw==/347x500/P0sHZc.png"
+            alt="team logo"
+          />
+          <div class="team-info margin-left">
+            <p class="game-label">Developed by</p>
+            <p class="game-title">Team Apex</p>
+            <p class="game-label medium">Support them on social media!</p>
+            <div>
+              <template id="social-media-template">
+                <li>
+                  <a class="social-link" href="#">
+                    <img
+                      class="social-icon"
+                      src="../../assets/icons/social-media/001-youtube.svg"
+                      alt="social media icon"
+                    />
+                  </a>
+                </li>
+              </template>
+              <ul id="socials" class="socials"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <img
+        class="footer-logo"
+        src="../../images/logo-light.png"
+        alt="MoonRift logo"
+      />
+      <div class="footer-links">
+        <a class="footer-link" href="">About</a> |
+        <a class="footer-link" href="">Contact Us</a> |
+        <a class="footer-link" href="">Support Us</a>
+      </div>
+      <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="../../js/game_js/kiwi.js"></script>
+  </body>
+</html>
