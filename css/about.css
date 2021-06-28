@@ -5,7 +5,7 @@
 .about-section {
   background: rgb(25, 26, 31);
   color: white;
-  min-height:300px;
+  min-height: 300px;
 }
 
 .about-content {
@@ -23,10 +23,11 @@
   height: 50vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto; 
+  margin-bottom: auto;
 }
 
-.title{/*our vision*/
+.title {
+  /*our vision*/
   font-family: "Sarala", "Arial", sans-serif;
   font-weight: bold;
   font-size: 2vw;
@@ -34,7 +35,8 @@
   margin-top: 20px;
 }
 
-.title2{/*Our mission*/
+.title2 {
+  /*Our mission*/
   font-family: "Sarala", "Arial", sans-serif;
   font-weight: bold;
   font-size: 2vw;
@@ -42,18 +44,8 @@
   margin-top: -20px;
 }
 
-.body-vision {
-  font-family: "Open Sans", sans-serif;
-  /*font-size: 15px;*/
-  font-size: 1vw;
-}
-
 .body-mission {
-  font-family: "Open Sans", sans-serif;
-  /*font-size: 15px;*/
-  font-size: 1vw;
   margin-bottom: 90px;
-
 }
 
 .tab {
@@ -65,3 +57,9 @@
   font-size: 1vw;
 }
 
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: normal;
+}
