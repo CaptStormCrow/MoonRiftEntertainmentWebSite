@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>MoonRift Entertainment</title>
     <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/homepage.css" />
     <link rel="stylesheet" href="../css/games.css" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -31,43 +32,29 @@
           src="../images/logo-light.png"
           alt="MoonRift logo"
       /></a>
-      <a class="nav-link" href="../index.html">Home</a>
       <a class="nav-link" href="news.html">News</a>
       <a class="nav-link" href="about.html">About</a>
     </nav>
 
-    <!-- TODO: GAMES SECTION -->
-    <div class="featured-section">
-      <div class="featured-content">
-        <div id="featured-img"></div>
-      </div>
+    <!-- MAIN CONTENT -->
+    <div class="main-container dark-bg">
+      <h2 class="section-title light-text">Games</h2>
+
+      <template id="game-template">
+        <li>
+          <a class="game-item" href="">
+            <img class="thumbnail" src="" alt="game thumbnail" />
+            <div class="game-info">
+              <p class="title"></p>
+              <p class="genres"></p>
+              <p class="price"></p>
+            </div>
+          </a>
+        </li>
+      </template>
+
+      <ul id="games"></ul>
     </div>
-    <div class="games-section">
-      <div class="games-content">
-        <p>----> Games section goes here <----</p>
-      </div>
-      <div class="games-section">
-        <div class="games-content">
-          <h2 class="section-title">Games</h2>
-  
-          <template id="game-template">
-            <li>
-              <a class="game-item" href="">
-                <img class="thumbnail" src="" alt="game thumbnail" />
-                <div class="game-info">
-                  <p class="title"></p>
-                  <p class="genres"></p>
-                  <p class="price"></p>
-                </div>
-              </a>
-            </li>
-          </template>
-  
-          <ul id="games"></ul>
-        </div>
-      </div>
-    </div>
-    
 
     <!-- FOOTER -->
     <footer>
@@ -85,6 +72,6 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="../js/homepage.js"></script>
+    <script src="../js/allgames.js"></script>
   </body>
 </html>

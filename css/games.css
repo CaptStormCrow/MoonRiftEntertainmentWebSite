@@ -1,10 +1,7 @@
-.games-section {
-    background: rgb(25, 26, 31);
-    color: white;
-    min-height: 300px;
-  }
-  
-  .games-content {
-    padding-top: 150px;
-  }
-  
+.dark-bg {
+  background: rgb(25, 26, 31);
+}
+
+.light-text {
+  color: white;
+}
