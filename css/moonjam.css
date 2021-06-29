@@ -3,6 +3,48 @@
   font-family: "Sarala", "Arial Bold", sans-serif;
   margin: 0;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.moonjam-img {
+  position: absolute;
+  right: -210px;
+  top: -110px;
+  width: 600px;
+  opacity: 0.5;
+}
+
+.clip {
+  overflow: hidden;
+  position: relative;
+}
+
+.pad {
+  margin-top: 100px;
+  margin-left: 42px;
+}
+
+.skew {
+  transform: skew(40deg);
+}
+
+.unskew {
+  transform: skew(-40deg);
+}
+
+.space-words {
+  word-spacing: 9999rem;
+}
+.space-words ~ .space-words {
+  /* Undo last assignment */
+  word-spacing: unset;
+  display: table-caption;
+}
+
+.overlap {
+  position: relative;
+  z-index: 5;
+  background: whitesmoke;
 }
 
 /* ========================= TESTIMONIALS ========================= */
