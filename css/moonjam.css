@@ -1,0 +1,40 @@
+.title {
+  font-size: 32px;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* ========================= TESTIMONIALS ========================= */
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Remove list styling */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonial-item {
+  background: rgba(56, 56, 56, 0.12);
+  padding: 16px;
+  margin: 8px;
+  max-width: 360px;
+}
+
+.testimonial-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-style: italic;
+  margin: 0;
+}
+
+.testimonial-author {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: right;
+}

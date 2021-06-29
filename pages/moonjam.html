@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>MoonRift Entertainment</title>
     <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/moonjam.css" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- Open Sans font -->
@@ -36,10 +36,29 @@
       <a class="nav-link" href="about.html">About</a>
     </nav>
 
-    <!-- TODO: ABOUT SECTION -->
-    <div class="about-section">
-      <div class="about-content">
+    <!-- TODO: MAIN SECTION -->
+    <div class="main-container">
+      <div class="main-content">
+        <!-- ABOUT TEMPLATE -->
+        <h2 class="title">MoonRift Internship Program</h2>
+        <p>----> About section goes here <----</p>
+
+        <!-- MOONJAMS TEMPLATE -->
+        <h2 class="title">MoonJams</h2>
         <p>----> MoonJam section goes here <----</p>
+
+        <!-- TESTIMONIAL TEMPLATE -->
+        <h2 class="title">Insight from our interns!</h2>
+        <template id="testimonial-template">
+          <li>
+            <div class="testimonial-item">
+              <blockquote class="testimonial-text"></blockquote>
+              <cite class="testimonial-author"></cite>
+            </div>
+          </li>
+        </template>
+
+        <ul id="testimonials" class="testimonials"></ul>
       </div>
     </div>
 
@@ -57,5 +76,8 @@
       </div>
       <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="../js/moonjam.js"></script>
   </body>
 </html>
