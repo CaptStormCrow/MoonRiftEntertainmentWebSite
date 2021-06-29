@@ -23,6 +23,13 @@ body {
   margin: 42px;
 }
 
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
 /* ====================== NAVBAR STYLES ====================== */
 
 .sticky {

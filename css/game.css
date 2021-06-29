@@ -44,12 +44,6 @@
   cursor: pointer;
 }
 
-.text {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-}
-
 /* ============================ FEATURES ============================ */
 .feature {
   display: flex;
