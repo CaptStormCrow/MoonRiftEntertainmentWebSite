@@ -45,7 +45,7 @@ function addGames(templateId) {
 
     // Add relevant content to the template
     instance.querySelector('.game-item').href = game.link;
-    instance.querySelector('.title').innerHTML = game.title;
+    instance.querySelector('.game-card-title').innerHTML = game.title;
     instance.querySelector('.genres').innerHTML = game.genres;
     instance.querySelector('.price').innerHTML = game.price;
     instance.querySelector('.thumbnail').src = game.image;
