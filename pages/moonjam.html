@@ -41,11 +41,32 @@
       <div class="main-content">
         <!-- ABOUT TEMPLATE -->
         <h2 class="title">MoonRift Internship Program</h2>
-        <p>----> About section goes here <----</p>
+        <p class="text">
+          We at MoonRift, created this internship program because we feel people
+          need somewhere to start with a bit of guidance to compete in the game
+          industry. At the end of the six-week cycle, those who have passed
+          elimination rounds will be rewarded with MoonRift Certificate of
+          Completion.
+        </p>
 
         <!-- MOONJAMS TEMPLATE -->
         <h2 class="title">MoonJams</h2>
-        <p>----> MoonJam section goes here <----</p>
+        <p class="text">Games developed by our interns.</p>
+
+        <template id="game-template">
+          <li>
+            <a class="game-item" href="">
+              <img class="thumbnail" src="" alt="game thumbnail" />
+              <div class="game-info">
+                <p class="title"></p>
+                <p class="genres"></p>
+                <p class="price"></p>
+              </div>
+            </a>
+          </li>
+        </template>
+
+        <ul id="games"></ul>
 
         <!-- TESTIMONIAL TEMPLATE -->
         <h2 class="title">Insight from our interns!</h2>
