@@ -1,0 +1,88 @@
+.title {
+  font-size: 32px;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.moonjam-img {
+  position: absolute;
+  right: -210px;
+  top: -110px;
+  width: 600px;
+  opacity: 0.5;
+}
+
+.clip {
+  overflow: hidden;
+  position: relative;
+}
+
+.pad {
+  margin-top: 100px;
+  margin-left: 42px;
+}
+
+.skew {
+  transform: skew(40deg);
+}
+
+.unskew {
+  transform: skew(-40deg);
+}
+
+.space-words {
+  word-spacing: 9999rem;
+}
+.space-words ~ .space-words {
+  /* Undo last assignment */
+  word-spacing: unset;
+  display: table-caption;
+}
+
+.overlap {
+  position: relative;
+  z-index: 5;
+  background: whitesmoke;
+}
+
+/* ========================= TESTIMONIALS ========================= */
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Remove list styling */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonial-item {
+  background: rgba(56, 56, 56, 0.12);
+  padding: 32px;
+  margin: 8px;
+  max-width: 320px;
+}
+
+.testimonial-text {
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-style: italic;
+  margin: 0;
+}
+
+.testimonial-author {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: right;
+  padding-top: 16px;
+}
+
+.pad-top {
+  padding-top: 32px;
+}

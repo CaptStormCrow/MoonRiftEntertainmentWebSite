@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>MoonRift Entertainment</title>
     <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/moonjam.css" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- Open Sans font -->
@@ -44,10 +44,62 @@
       <a class="nav-link" href="about.html">About</a>
     </nav>
 
-    <!-- TODO: ABOUT SECTION -->
-    <div class="about-section">
-      <div class="about-content">
-        <p>----> MoonJam section goes here <----</p>
+    <!-- TODO: MAIN SECTION -->
+    <div class="main-container clip">
+      <img
+        class="moonjam-img"
+        src="../images/moonjam-class-3.png"
+        alt="MoonJam class 3"
+      />
+      <div class="main-content">
+        <!-- ABOUT TEMPLATE -->
+        <div class="skew pad">
+          <p class="title unskew">MoonRift</p>
+          <p class="title unskew">Internship</p>
+          <p class="title unskew">Program</p>
+          <!-- <h2 class="title unskew space-words">MoonRift Internship Program</h2> -->
+        </div>
+        <p class="text overlap">
+          We at MoonRift, created this internship program because we feel people
+          need somewhere to start with a bit of guidance to compete in the game
+          industry. At the end of the six-week cycle, those who have passed
+          elimination rounds will be rewarded with MoonRift Certificate of
+          Completion.
+        </p>
+
+        <!-- MOONJAMS TEMPLATE -->
+        <h2 class="title pad-top">MoonJams</h2>
+        <p class="text">Games developed by our interns.</p>
+
+        <template id="game-template">
+          <li>
+            <a class="game-item" href="">
+              <img class="thumbnail" src="" alt="game thumbnail" />
+              <div class="game-info">
+                <p class="game-card-title"></p>
+                <p class="genres"></p>
+                <p class="price"></p>
+              </div>
+            </a>
+          </li>
+        </template>
+
+        <ul id="games"></ul>
+
+        <!-- TESTIMONIAL TEMPLATE -->
+        <h2 class="title pad-top">Insight from our interns!</h2>
+        <template id="testimonial-template">
+          <li>
+            <div class="testimonial-item">
+              <span>"</span>
+              <blockquote class="testimonial-text"></blockquote>
+              <span>"</span>
+              <cite class="testimonial-author"></cite>
+            </div>
+          </li>
+        </template>
+
+        <ul id="testimonials" class="testimonials"></ul>
       </div>
     </div>
 
@@ -65,5 +117,8 @@
       </div>
       <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="../js/moonjam.js"></script>
   </body>
 </html>
