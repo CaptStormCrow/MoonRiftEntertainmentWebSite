@@ -7,7 +7,7 @@ const gameData = [
     genres: 'Arcade',
     price: 'FREE TO PLAY', 
     image: 'https://img.itch.zone/aW1nLzYxNTY2MDgucG5n/315x250%23c/ay6JFm.png', 
-    link: './pages/game_pages/kiwi.html' 
+    link: 'https://moonrift.itch.io/kiwi' 
   },
   { 
     title: 'Soul Guard', 
@@ -35,7 +35,7 @@ const gameData = [
     genres: 'Arcade',
     price: 'FREE TO PLAY', 
     image: 'https://img.itch.zone/aW1nLzYxNTY2MDgucG5n/315x250%23c/ay6JFm.png', 
-    link: './pages/game_pages/kiwi.html' 
+    link: 'https://moonrift.itch.io/kiwi' 
   },
   { 
     title: 'Soul Guard', 
