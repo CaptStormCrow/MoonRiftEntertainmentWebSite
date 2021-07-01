@@ -15,25 +15,18 @@ const iconData = [
   },
 ];
 
-function addNews(templateId) {
+function addSocials(templateId) {
   const socialsList = document.getElementById('socials');
   const fragment = document.getElementById(templateId);
-  
-  // Clear out content
   socialsList.innerHTML = '';
-  
-  // Loop over icon data and modify the given template
   iconData.forEach(icon => {
-    // Create an instance of the template content
     const instance = document.importNode(fragment.content, true);
 
-    // Add relevant content to the template
     instance.querySelector('.social-link').href = icon.link;
     instance.querySelector('.social-icon').src = icon.imagePath;
 
-    // Append the instance ot the DOM
     socialsList.appendChild(instance);
   });  
 }
 
-addNews('social-media-template');
+addSocials('social-media-template');
