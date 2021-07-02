@@ -1,9 +1,17 @@
 /* Contains styles for components that appear on all pages
-such as the header and footer */
+such as the header, footer, and general links */
 
 body {
   margin: 0;
   background: rgb(25, 26, 31);
+}
+
+a {
+  color: rgb(173, 32, 216);
+}
+
+a::visited {
+  color: rgb(110, 14, 189);
 }
 
 .main-container {
@@ -124,7 +132,7 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -143,7 +151,7 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -156,14 +164,19 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
-
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 /* ====================== FOOTER STYLES ====================== */
 footer {
@@ -190,6 +203,39 @@ footer {
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+
+.footer-social-icon {
+  width: 24px;
+  padding: 6px;
+  margin: 0 16px;
+}
+
+.footer-contact-info {
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(189, 193, 196);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 16px;
+}
+
+.footer-email {
+  text-transform: none;
+}
+
+.footer-contact-info p {
+  margin: 0;
 }
 
 .copyright {

@@ -98,19 +98,3 @@ body {
   margin: auto;
   padding: 32px 0;
 }
-
-/* ======================== SOCIAL MEDIA ICON SECTION STYLES ======================== */
-.socials {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  margin: auto;
-}
-
-.social-icon {
-  width: 24px;
-  padding: 6px;
-  margin: 0 16px;
-}
