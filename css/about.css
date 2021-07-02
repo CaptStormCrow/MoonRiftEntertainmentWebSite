@@ -1,58 +1,35 @@
+.about-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 0 1;
+}
+
+.portrait {
+  width: 300px;
+  align-self: flex-start;
+}
+
+.about-info {
+  width: 400px;
+}
+
+.title {
+  font-size: 32px;
+  font-family: "Sarala", "Arial Bold", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sig {
+  text-align: right;
+}
+
 .bold {
   font-weight: bold;
 }
 
-.about-section {
-  background: rgb(25, 26, 31);
-  color: white;
-  min-height: 300px;
-}
-
-.about-content {
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #3e3f43;
-  /*width: 800px;*/
-  width: 75vw;
-  /*height: 800px;*/
-  height: 50vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
-.title {
-  /*our vision*/
-  font-family: "Sarala", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 2vw;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.title2 {
-  /*Our mission*/
-  font-family: "Sarala", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 2vw;
-  margin-left: 25px;
-  margin-top: -20px;
-}
-
-.body-mission {
-  margin-bottom: 90px;
-}
-
-.tab {
-  margin-left: 55px;
-}
-
-.motto {
-  margin-top: 500px;
-  font-size: 1vw;
+.pad {
+  margin-left: 32px;
 }
