@@ -67,7 +67,7 @@
 .feature {
   display: flex;
   flex-direction: row;
-  margin: 24px auto;
+  margin: 42px auto;
   justify-content: center;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .feature-info {
-  flex: 0 0 50%;
+  flex: 1;
 }
 
 .screenshot {
@@ -127,6 +127,8 @@
   width: 32px;
   margin: 8px;
 }
+
+/* ========================= MISC STYLES ========================= */
 
 .medium {
   font-size: 18px;
