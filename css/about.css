@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* flex: 1 1 auto; */
 }
 
 .portrait {
@@ -35,4 +34,21 @@
 
 .pad {
   margin-left: 32px;
+}
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+
+@media only screen and (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .portrait {
+    align-self: center;
+  }
+
+  .pad {
+    margin-left: 0;
+  }
 }

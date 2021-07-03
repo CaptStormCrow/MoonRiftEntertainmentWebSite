@@ -133,3 +133,28 @@
 .medium {
   font-size: 18px;
 }
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+
+@media only screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+
+  .main-bar {
+    flex-direction: column;
+  }
+
+  .feature,
+  .reverse {
+    flex-direction: column;
+  }
+
+  .margin-left {
+    margin-left: 0;
+  }
+
+  .team-container {
+    flex-direction: column-reverse;
+  }
+}

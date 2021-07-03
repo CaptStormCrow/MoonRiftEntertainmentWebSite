@@ -37,12 +37,13 @@ a::visited {
   font-weight: normal;
 }
 
-/* GAME CARD STYLES */
+/* ======================= GAME CARD STYLES ======================= */
 #games {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
+  padding: 0;
 }
 
 .game-item {
@@ -241,4 +242,17 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin-top: 32px;
+}
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .main-container {
+    width: 100vw;
+    justify-content: center;
+  }
 }

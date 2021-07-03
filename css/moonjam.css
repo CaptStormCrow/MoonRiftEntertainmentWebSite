@@ -86,3 +86,11 @@
 .pad-top {
   padding-top: 32px;
 }
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+
+@media only screen and (max-width: 768px) {
+  .testimonial-item {
+    max-width: 100%;
+  }
+}
