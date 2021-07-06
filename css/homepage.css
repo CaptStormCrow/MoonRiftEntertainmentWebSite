@@ -25,10 +25,12 @@ body {
 }
 
 #featured-img {
-  width: 100vw;
+  width: 800px;
+  max-width: 100vw;
   height: 600px;
+  margin: auto;
   margin-top: 180px;
-  background-color: yellowgreen;
+  background-color: rgb(25, 26, 31);
   transition: background 1.5s linear;
 }
 
@@ -65,7 +67,6 @@ body {
 
 .post-info {
   font-family: "Open Sans", sans-serif;
-  padding-left: 24px;
 }
 
 .post-date {
@@ -98,6 +99,39 @@ body {
   padding: 32px 0;
 }
 
+/* ======================== MISC STYLES ======================== */
+
 .pad-left {
   padding-left: 40px !important;
+}
+
+.news-pad-left {
+  padding-left: 24px;
+}
+
+.pad-top {
+  padding-top: 0;
+}
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+
+@media only screen and (max-width: 768px) {
+  .news-content,
+  .games-content {
+    width: 100vw;
+  }
+
+  .news-item {
+    display: flex;
+    flex-direction: column;
+    /* padding: 16px 0; */
+  }
+
+  .news-pad-left {
+    padding-left: 0;
+  }
+
+  .pad-top {
+    padding-top: 16px;
+  }
 }

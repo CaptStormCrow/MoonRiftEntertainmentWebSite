@@ -134,17 +134,12 @@
   font-size: 18px;
 }
 
+.margin-top {
+  margin-top: 0;
+}
+
 /* ==================== MOBILE RESPONSIVE ==================== */
-
-@media only screen and (max-width: 768px) {
-  img {
-    max-width: 100%;
-  }
-
-  .main-bar {
-    flex-direction: column;
-  }
-
+@media only screen and (max-width: 950px) {
   .feature,
   .reverse {
     flex-direction: column;
@@ -156,5 +151,19 @@
 
   .team-container {
     flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+
+  .main-bar {
+    flex-direction: column;
+  }
+
+  .margin-top {
+    margin-top: 16px;
   }
 }
