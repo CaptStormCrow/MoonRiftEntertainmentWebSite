@@ -23,50 +23,55 @@
   </head>
 
   <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="nav-bar">
-      <div class="dropdown">
-        <a class="nav-link" href="games.html">Games</a>
-        <div class="dropdown-content">
-          <a href="./game_pages/kiwi.html">Kiwi</a>
-          <a href="./game_pages/soulguard.html">Soul Guard</a>
-          <a href="./game_pages/tk1.html">Toy Kingdom</a>
-          <a href="./game_pages/tk2.html">Toy Kingdom 2</a>
+    <!-- SIDENAV -->
+    <div include-html="../components/sidenav.html"></div>
+
+    <div id="main">
+      <!-- NAVIGATION BAR -->
+      <nav class="nav-bar">
+        <div class="dropdown">
+          <a class="nav-link" href="games.html">Games</a>
+          <div class="dropdown-content">
+            <a href="./game_pages/kiwi.html">Kiwi</a>
+            <a href="./game_pages/soulguard.html">Soul Guard</a>
+            <a href="./game_pages/tk1.html">Toy Kingdom</a>
+            <a href="./game_pages/tk2.html">Toy Kingdom 2</a>
+          </div>
         </div>
+        <a class="nav-link" href="moonjam.html">MoonJams</a>
+        <a class="nav-link" href="../index.html"
+          ><img
+            class="nav-logo"
+            src="../images/logo-light.png"
+            alt="MoonRift logo"
+        /></a>
+        <a class="nav-link" href="../index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+      </nav>
+
+      <!-- MAIN CONTENT -->
+      <div class="main-container dark-bg">
+        <h2 class="section-title light-text">Games</h2>
+
+        <template id="game-template">
+          <li>
+            <a class="game-item" href="">
+              <img class="thumbnail" src="" alt="game thumbnail" />
+              <div class="game-info">
+                <p class="game-card-title"></p>
+                <p class="genres"></p>
+                <p class="price"></p>
+              </div>
+            </a>
+          </li>
+        </template>
+
+        <ul id="games" class="pad-left"></ul>
       </div>
-      <a class="nav-link" href="moonjam.html">MoonJams</a>
-      <a class="nav-link" href="../index.html"
-        ><img
-          class="nav-logo"
-          src="../images/logo-light.png"
-          alt="MoonRift logo"
-      /></a>
-      <a class="nav-link" href="../index.html">Home</a>
-      <a class="nav-link" href="about.html">About</a>
-    </nav>
 
-    <!-- MAIN CONTENT -->
-    <div class="main-container dark-bg">
-      <h2 class="section-title light-text">Games</h2>
-
-      <template id="game-template">
-        <li>
-          <a class="game-item" href="">
-            <img class="thumbnail" src="" alt="game thumbnail" />
-            <div class="game-info">
-              <p class="game-card-title"></p>
-              <p class="genres"></p>
-              <p class="price"></p>
-            </div>
-          </a>
-        </li>
-      </template>
-
-      <ul id="games" class="pad-left"></ul>
+      <!-- FOOTER -->
+      <div include-html="../components/footer.html"></div>
     </div>
-
-    <!-- FOOTER -->
-    <div include-html="../components/footer.html"></div>
 
     <!-- SCRIPTS -->
     <script src="../js/general.js"></script>
