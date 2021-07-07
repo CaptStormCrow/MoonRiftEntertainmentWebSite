@@ -3,6 +3,27 @@
   such as the navigation bar and footer.
  */
 
+// =============== SIDENAV ===============
+var isSidenavOpen = false;
+
+function toggleSidenav() {
+  if (isSidenavOpen) closeSidenav();
+  else openSidenav();
+}
+
+// Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
+function openSidenav() {
+  document.getElementById("sidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  isSidenavOpen = true;
+}
+
+function closeSidenav() {
+  document.getElementById("sidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  isSidenavOpen = false;
+}
+
 // =============== FOOTER SOCIAL MEDIA ICONS TEMPLATE ===============
 const relPath = './assets/icons/social-media/';
 const iconData = [

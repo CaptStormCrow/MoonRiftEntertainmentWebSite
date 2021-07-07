@@ -22,105 +22,115 @@
   </head>
 
   <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="nav-bar">
-      <div class="dropdown">
-        <a class="nav-link" href="pages/games.html">Games</a>
-        <div class="dropdown-content">
-          <a href="./pages/game_pages/kiwi.html">Kiwi</a>
-          <a href="./pages/game_pages/soulguard.html">Soul Guard</a>
-          <a href="./pages/game_pages/tk1.html">Toy Kingdom</a>
-          <a href="./pages/game_pages/tk2.html">Toy Kingdom 2</a>
+    <div id="sidenav" class="sidenav">
+      <a class="sidenav-link" href="pages/index.html">Home</a>
+      <a class="sidenav-link" href="pages/about.html">About</a>
+      <a class="sidenav-link" href="pages/games.html">Games</a>
+      <a class="sidenav-link" href="pages/moonjam.html">MoonJams</a>
+    </div>
+
+    <div id="main">
+      <!-- NAVIGATION BAR -->
+      <nav class="nav-bar">
+        <span class="hamburger" onclick="toggleSidenav()">&#9776;</span>
+        <div class="dropdown">
+          <a class="nav-link" href="pages/games.html">Games</a>
+          <div class="dropdown-content">
+            <a href="./pages/game_pages/kiwi.html">Kiwi</a>
+            <a href="./pages/game_pages/soulguard.html">Soul Guard</a>
+            <a href="./pages/game_pages/tk1.html">Toy Kingdom</a>
+            <a href="./pages/game_pages/tk2.html">Toy Kingdom 2</a>
+          </div>
+        </div>
+        <a class="nav-link" href="pages/moonjam.html">MoonJams</a>
+        <a href="index.html"
+          ><img
+            class="nav-logo"
+            src="./images/logo-light.png"
+            alt="MoonRift logo"
+        /></a>
+        <a class="nav-link" href="pages/index.html">Home</a>
+        <a class="nav-link" href="pages/about.html">About</a>
+      </nav>
+
+      <!-- FEATURED SECTION -->
+      <div class="featured-section">
+        <div class="featured-content">
+          <div id="featured-img"></div>
         </div>
       </div>
-      <a class="nav-link" href="pages/moonjam.html">MoonJams</a>
-      <a class="nav-link" href="index.html"
-        ><img
-          class="nav-logo"
+
+      <!-- NEWS SECTION  -->
+      <div class="news-section">
+        <div class="news-content">
+          <h2 class="section-title">News</h2>
+
+          <template id="news-template">
+            <li class="news-item">
+              <img class="post-thumbnail" src="" alt="post thumbnail" />
+              <div class="post-info pad-top news-pad-left">
+                <p class="post-date"></p>
+                <p class="post-title"></p>
+                <p class="post-summary"></p>
+              </div>
+            </li>
+          </template>
+
+          <ul id="news"></ul>
+        </div>
+      </div>
+
+      <!-- GAMES SECTION -->
+      <div class="games-section">
+        <div class="games-content">
+          <h2 class="section-title">Games</h2>
+
+          <template id="game-template">
+            <li>
+              <a class="game-item" href="">
+                <img class="thumbnail" src="" alt="game thumbnail" />
+                <div class="game-info">
+                  <p class="game-card-title"></p>
+                  <p class="genres"></p>
+                  <p class="price"></p>
+                </div>
+              </a>
+            </li>
+          </template>
+
+          <ul id="games" class="pad-left"></ul>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <img
+          class="footer-logo"
           src="./images/logo-light.png"
           alt="MoonRift logo"
-      /></a>
-      <a class="nav-link" href="pages/index.html">Home</a>
-      <a class="nav-link" href="pages/about.html">About</a>
-    </nav>
-
-    <!-- FEATURED SECTION -->
-    <div class="featured-section">
-      <div class="featured-content">
-        <div id="featured-img"></div>
-      </div>
-    </div>
-
-    <!-- NEWS SECTION  -->
-    <div class="news-section">
-      <div class="news-content">
-        <h2 class="section-title">News</h2>
-
-        <template id="news-template">
-          <li class="news-item">
-            <img class="post-thumbnail" src="" alt="post thumbnail" />
-            <div class="post-info pad-top news-pad-left">
-              <p class="post-date"></p>
-              <p class="post-title"></p>
-              <p class="post-summary"></p>
-            </div>
-          </li>
-        </template>
-
-        <ul id="news"></ul>
-      </div>
-    </div>
-
-    <!-- GAMES SECTION -->
-    <div class="games-section">
-      <div class="games-content">
-        <h2 class="section-title">Games</h2>
-
-        <template id="game-template">
+        />
+        <!-- Footer Social Icons -->
+        <template id="footer-social-template">
           <li>
-            <a class="game-item" href="">
-              <img class="thumbnail" src="" alt="game thumbnail" />
-              <div class="game-info">
-                <p class="game-card-title"></p>
-                <p class="genres"></p>
-                <p class="price"></p>
-              </div>
+            <a class="footer-social-link" href="#">
+              <img class="footer-social-icon" src="" alt="social media icon" />
             </a>
           </li>
         </template>
-
-        <ul id="games" class="pad-left"></ul>
-      </div>
+        <ul id="footer-socials" class="footer-socials"></ul>
+        <!-- Footer contact info -->
+        <div class="footer-contact-info">
+          <p>
+            Email:
+            <a class="footer-email" href="MoonRiftEntertainment@gmail.com"
+              >MoonRiftEntertainment@gmail.com</a
+            >
+          </p>
+          <p>Phone: +1 (661) 269-3513</p>
+        </div>
+        <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
+      </footer>
     </div>
-
-    <!-- FOOTER -->
-    <footer>
-      <img
-        class="footer-logo"
-        src="./images/logo-light.png"
-        alt="MoonRift logo"
-      />
-      <!-- Footer Social Icons -->
-      <template id="footer-social-template">
-        <li>
-          <a class="footer-social-link" href="#">
-            <img class="footer-social-icon" src="" alt="social media icon" />
-          </a>
-        </li>
-      </template>
-      <ul id="footer-socials" class="footer-socials"></ul>
-      <!-- Footer contact info -->
-      <div class="footer-contact-info">
-        <p>
-          Email:
-          <a class="footer-email" href="MoonRiftEntertainment@gmail.com"
-            >MoonRiftEntertainment@gmail.com</a
-          >
-        </p>
-        <p>Phone: +1 (661) 269-3513</p>
-      </div>
-      <p class="copyright">Copyright &copy; 2021 MoonRift Entertainment</p>
-    </footer>
 
     <!-- SCRIPTS -->
     <script src="./js/homepage.js"></script>
