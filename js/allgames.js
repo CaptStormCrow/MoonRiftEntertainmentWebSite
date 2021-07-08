@@ -7,7 +7,7 @@ const gameData = [
     genres: "Arcade",
     price: "FREE TO PLAY",
     image: "https://img.itch.zone/aW1nLzYxNTY2MDgucG5n/315x250%23c/ay6JFm.png",
-    link: "./pages/game_pages/kiwi.html",
+    link: "./game_pages/kiwi.html",
   },
   {
     title: "Soul Guard",
@@ -15,21 +15,21 @@ const gameData = [
     price: "FREE TO PLAY",
     image:
       "https://img.itch.zone/aW1nLzU4MjAyNDIucG5n/315x250%23c/5pGN%2FO.png",
-    link: "./pages/game_pages/soulguard.html",
+    link: "./game_pages/soulguard.html",
   },
   {
     title: "Toy Kingdom 2",
     genres: "Sandbox, 3D",
     price: "$4 USD",
     image: "https://img.itch.zone/aW1nLzU0NTk5MTAucG5n/315x250%23c/BqPfbN.png",
-    link: "./pages/game_pages/tk2.html",
+    link: "./game_pages/tk2.html",
   },
   {
     title: "Toy Kingdom",
     genres: "Sandbox, 3D",
     price: "FREE TO PLAY",
     image: "https://img.itch.zone/aW1nLzUxODcxNjUucG5n/315x250%23c/IcKa2U.png",
-    link: "./pages/game_pages/tk1.html",
+    link: "./game_pages/tk1.html",
   },
 ];
 
