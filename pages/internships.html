@@ -22,90 +22,74 @@
   </head>
 
   <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="nav-bar">
-      <div class="dropdown">
-        <a class="nav-link" href="games.html">Games</a>
-        <div class="dropdown-content">
-          <a href="./pages/game_pages/kiwi.html">Kiwi</a>
-          <a href="./pages/game_pages/soulguard.html">Soul Guard</a>
-          <a href="./pages/game_pages/tk1.html">Toy Kingdom</a>
-          <a href="./pages/game_pages/tk2.html">Toy Kingdom 2</a>
-        </div>
-      </div>
-      <a class="nav-link" href="moonjam.html">MoonJams</a>
-      <a class="nav-link" href="../index.html"
-        ><img
-          class="nav-logo"
-          src="../images/logo-light.png"
-          alt="MoonRift logo"
-      /></a>
-      <a class="nav-link" href="../index.html">Home</a>
-      <a class="nav-link" href="news.html">News</a>
-      <a class="nav-link" href="about.html">About</a>
-    </nav>
+    <!-- SIDENAV -->
+    <div include-html="../components/sidenav.html"></div>
 
-    <!-- TODO: MAIN SECTION -->
-    <div class="main-container clip">
-      <img
-        class="moonjam-img"
-        src="../images/moonjam-class-3.png"
-        alt="MoonJam class 3"
-      />
-      <div class="main-content">
-        <!-- ABOUT TEMPLATE -->
-        <div class="skew pad">
-          <p class="title unskew">MoonRift</p>
-          <p class="title unskew">Internship</p>
-          <p class="title unskew">Program</p>
-          <!-- <h2 class="title unskew space-words">MoonRift Internship Program</h2> -->
-        </div>
-        <p class="text overlap">
-          We at MoonRift, created this internship program because we feel people
-          need somewhere to start with a bit of guidance to compete in the game
-          industry. At the end of the six-week cycle, those who have passed
-          elimination rounds will be rewarded with MoonRift Certificate of
-          Completion.
-        </p>
+    <div id="main">
+      <!-- NAVIGATION BAR -->
+      <div include-html="../components/navbar.html"></div>
 
-        <!-- MOONJAMS TEMPLATE -->
-        <h2 class="title pad-top">MoonJams</h2>
-        <p class="text">Games developed by our interns.</p>
+      <div class="main-container clip">
+        <img
+          class="moonjam-img"
+          src="../images/moonjam-class-3.png"
+          alt="MoonJam class 3"
+        />
+        <div class="main-content">
+          <!-- ABOUT TEMPLATE -->
+          <div class="skew pad">
+            <p class="title unskew">MoonRift</p>
+            <p class="title unskew">Internship</p>
+            <p class="title unskew">Program</p>
+            <!-- <h2 class="title unskew space-words">MoonRift Internship Program</h2> -->
+          </div>
+          <p class="text overlap">
+            We at MoonRift, created this internship program because we feel
+            people need somewhere to start with a bit of guidance to compete in
+            the game industry. At the end of the six-week cycle, those who have
+            passed elimination rounds will be rewarded with MoonRift Certificate
+            of Completion.
+          </p>
 
-        <template id="game-template">
-          <li>
-            <a class="game-item" href="">
-              <img class="thumbnail" src="" alt="game thumbnail" />
-              <div class="game-info">
-                <p class="game-card-title"></p>
-                <p class="genres"></p>
-                <p class="price"></p>
+          <!-- MOONJAMS TEMPLATE -->
+          <h2 class="title pad-top">MoonJams</h2>
+          <p class="text">Games developed by our interns.</p>
+
+          <template id="game-template">
+            <li>
+              <a class="game-item" href="">
+                <img class="thumbnail" src="" alt="game thumbnail" />
+                <div class="game-info">
+                  <p class="game-card-title"></p>
+                  <p class="genres"></p>
+                  <p class="price"></p>
+                </div>
+              </a>
+            </li>
+          </template>
+
+          <ul id="games"></ul>
+
+          <!-- TESTIMONIAL TEMPLATE -->
+          <h2 class="title pad-top">Insight from our interns!</h2>
+          <template id="testimonial-template">
+            <li>
+              <div class="testimonial-item">
+                <span>"</span>
+                <blockquote class="testimonial-text"></blockquote>
+                <span>"</span>
+                <cite class="testimonial-author"></cite>
               </div>
-            </a>
-          </li>
-        </template>
+            </li>
+          </template>
 
-        <ul id="games"></ul>
-
-        <!-- TESTIMONIAL TEMPLATE -->
-        <h2 class="title pad-top">Insight from our interns!</h2>
-        <template id="testimonial-template">
-          <li>
-            <div class="testimonial-item">
-              <span>"</span>
-              <blockquote class="testimonial-text"></blockquote>
-              <span>"</span>
-              <cite class="testimonial-author"></cite>
-            </div>
-          </li>
-        </template>
-
-        <ul id="testimonials" class="testimonials"></ul>
+          <ul id="testimonials" class="testimonials"></ul>
+        </div>
       </div>
-    </div>
 
-    <!-- FOOTER -->
-    <div include-html="../components/footer.html"></div>
+      <!-- FOOTER -->
+      <div include-html="../components/footer.html"></div>
+    </div>
 
     <!-- SCRIPTS -->
     <script src="../js/general.js"></script>

@@ -22,75 +22,61 @@
   </head>
 
   <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="nav-bar">
-      <div class="dropdown">
-        <a class="nav-link" href="games.html">Games</a>
-        <div class="dropdown-content">
-          <a href="./game_pages/kiwi.html">Kiwi</a>
-          <a href="./game_pages/soulguard.html">Soul Guard</a>
-          <a href="./game_pages/tk1.html">Toy Kingdom</a>
-          <a href="./game_pages/tk2.html">Toy Kingdom 2</a>
-        </div>
-      </div>
-      <a class="nav-link" href="moonjam.html">MoonJams</a>
-      <a class="nav-link" href="../index.html"
-        ><img
-          class="nav-logo"
-          src="../images/logo-light.png"
-          alt="MoonRift logo"
-      /></a>
-      <a class="nav-link" href="../index.html">Home</a>
-      <a class="nav-link" href="about.html">About</a>
-    </nav>
+    <!-- SIDENAV -->
+    <div include-html="../components/sidenav.html"></div>
 
-    <!-- ABOUT SECTION -->
+    <div id="main">
+      <!-- NAVIGATION BAR -->
+      <div include-html="../components/navbar.html"></div>
 
-    <div class="main-container">
-      <div class="main-content">
-        <h2 class="title">About MoonRift Entertainment</h2>
-        <div class="about-section">
-          <img
-            class="portrait"
-            src="../images/people/leo-portrait.jpg"
-            alt="Leo portrait"
-          />
-          <div class="about-info text pad">
-            <p>
-              "MoonRift Entertainment officially began in the spring of 2014
-              through a GoFundMe Campaign to make the logo that you see today.
-              At 4:00 PM on September 17th, 2014, the first meeting with
-              MoonRift Entertainment took place. The fledgling studio was funded
-              by an $8,000 loan, but six months later the money ran out. The
-              game was nowhere near functional, the scope of the project was
-              overloaded, and I realized just how new we were in the field of
-              game development. After a failed Kickstarter in 2016 for Nyx the
-              Chameleon, morale plummeted, and people left. In this forced
-              existential crisis, there was a fork in the road and a decision to
-              be made.
-            </p>
-            <p>
-              I decided to double down, going back to school for my Master’s in
-              Business Administration (SDSU) and Master’s in Game Design (NYFA).
-              In the Summer of 2020, (yes that 2020), I restarted MoonRift
-              Entertainment with our first class of members. This time my goal
-              was to find people from diverse backgrounds and build an
-              atmosphere of collaboration and support, leaning on each other for
-              guidance and developing our capabilities. Since then, we have
-              grown into an indie family with 20+ members all dedicated to
-              building games that we enjoy making. Although we are young, we
-              have the drive to see this through and work every day to improve
-              our skill sets. I am a fan of an old saying ‘The harder we work,
-              the luckier we’ll get’, and this is just our beginning.”
-            </p>
-            <p class="sig">– Leonice Brown-Young Jr</p>
+      <!-- ABOUT SECTION -->
+      <div class="main-container">
+        <div class="main-content">
+          <h2 class="title">About MoonRift Entertainment</h2>
+          <div class="about-section">
+            <img
+              class="portrait"
+              src="../images/people/leo-portrait.jpg"
+              alt="Leo portrait"
+            />
+            <div class="about-info text pad">
+              <p>
+                "MoonRift Entertainment officially began in the spring of 2014
+                through a GoFundMe Campaign to make the logo that you see today.
+                At 4:00 PM on September 17th, 2014, the first meeting with
+                MoonRift Entertainment took place. The fledgling studio was
+                funded by an $8,000 loan, but six months later the money ran
+                out. The game was nowhere near functional, the scope of the
+                project was overloaded, and I realized just how new we were in
+                the field of game development. After a failed Kickstarter in
+                2016 for Nyx the Chameleon, morale plummeted, and people left.
+                In this forced existential crisis, there was a fork in the road
+                and a decision to be made.
+              </p>
+              <p>
+                I decided to double down, going back to school for my Master’s
+                in Business Administration (SDSU) and Master’s in Game Design
+                (NYFA). In the Summer of 2020, (yes that 2020), I restarted
+                MoonRift Entertainment with our first class of members. This
+                time my goal was to find people from diverse backgrounds and
+                build an atmosphere of collaboration and support, leaning on
+                each other for guidance and developing our capabilities. Since
+                then, we have grown into an indie family with 20+ members all
+                dedicated to building games that we enjoy making. Although we
+                are young, we have the drive to see this through and work every
+                day to improve our skill sets. I am a fan of an old saying ‘The
+                harder we work, the luckier we’ll get’, and this is just our
+                beginning.”
+              </p>
+              <p class="sig">– Leonice Brown-Young Jr</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- FOOTER -->
-    <div include-html="../components/footer.html"></div>
+      <!-- FOOTER -->
+      <div include-html="../components/footer.html"></div>
+    </div>
 
     <!-- SCRIPTS -->
     <script src="../js/general.js"></script>

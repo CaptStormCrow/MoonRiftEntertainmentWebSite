@@ -22,159 +22,145 @@
   </head>
 
   <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="nav-bar">
-      <div class="dropdown">
-        <a class="nav-link" href="games.html">Games</a>
-        <div class="dropdown-content">
-          <a href="./kiwi.html">Kiwi</a>
-          <a href="./soulguard.html">Soul Guard</a>
-          <a href="./tk1.html">Toy Kingdom</a>
-          <a href="./tk2.html">Toy Kingdom 2</a>
-        </div>
-      </div>
-      <a class="nav-link" href="../moonjam.html">MoonJams</a>
-      <a class="nav-link" href="../../index.html"
-        ><img
-          class="nav-logo"
-          src="../../images/logo-light.png"
-          alt="MoonRift logo"
-      /></a>
-      <a class="nav-link" href="../../index.html">Home</a>
-      <a class="nav-link" href="../news.html">News</a>
-      <a class="nav-link" href="../about.html">About</a>
-    </nav>
+    <div include-html="../../components/sidenav_nested.html"></div>
 
-    <div class="main-container">
-      <!-- GAME BANNER -->
-      <img
-        class="banner"
-        src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTkzLnBuZw==/347x500/h%2BLbch.png"
-        alt="game banner"
-      />
-      <div class="main-content">
-        <!-- ABOUT -->
-        <div class="section">
-          <div class="main-bar">
-            <div>
-              <h1 class="game-title">Kiwi</h1>
-              <p class="game-label">Developed by TEAM APEX</p>
+    <div id="main">
+      <!-- NAVIGATION BAR -->
+      <div include-html="../../components/navbar_nested.html"></div>
+
+      <div class="main-container">
+        <!-- GAME BANNER -->
+        <img
+          class="banner"
+          src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTkzLnBuZw==/347x500/h%2BLbch.png"
+          alt="game banner"
+        />
+        <div class="main-content">
+          <!-- ABOUT -->
+          <div class="section">
+            <div class="main-bar">
+              <div>
+                <h1 class="game-title">Kiwi</h1>
+                <p class="game-label">Developed by TEAM APEX</p>
+              </div>
+              <a class="align-center" href="https://moonrift.itch.io/kiwi">
+                <button class="download-btn margin-top">Download</button>
+              </a>
             </div>
-            <a class="align-center" href="https://moonrift.itch.io/kiwi">
-              <button class="download-btn margin-top">Download</button>
-            </a>
-          </div>
-          <p class="text">
-            Kiwi is a three level auto-scroller that focuses on the endless
-            adventure during which the player must help maneuver the bird in
-            order to dodge environmental obstacles whilst trying to not get
-            killed by enemies! The powerup store gives the player an opportunity
-            to utilize the coins collected throughout the game as well as a
-            greater chance to get higher scores on the leaderboard. Players can
-            also get information regarding the featured endangered species they
-            will encounter throughout the game! This current beta version of the
-            game includes three levels, all in New Zealand.
-          </p>
-          <div class="video-container">
-            <iframe
-              class="video"
-              src="https://www.youtube.com/embed/hHLajlo2rPU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-
-        <!-- FEATURES  -->
-        <div class="feature reverse">
-          <div class="feature-info margin-left">
-            <h2 class="feature-title">Level 1 - Poacher's Forest</h2>
             <p class="text">
-              Welcome to the Poacher's Forest! This is the first level that Kiwi
-              has to face in order to find his parents. Kiwi is able to land on
-              stone pillars to recover his flight energy. However, be mindful of
-              the vines and flying ferrets. Try throwing a kiwi at 'em to take
-              them down! The gusts of wind will help Kiwi fy more easily.
+              Kiwi is a three level auto-scroller that focuses on the endless
+              adventure during which the player must help maneuver the bird in
+              order to dodge environmental obstacles whilst trying to not get
+              killed by enemies! The powerup store gives the player an
+              opportunity to utilize the coins collected throughout the game as
+              well as a greater chance to get higher scores on the leaderboard.
+              Players can also get information regarding the featured endangered
+              species they will encounter throughout the game! This current beta
+              version of the game includes three levels, all in New Zealand.
             </p>
+            <div class="video-container">
+              <iframe
+                class="video"
+                src="https://www.youtube.com/embed/hHLajlo2rPU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
-          <img
-            class="screenshot"
-            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk0LnBuZw==/347x500/9TrApr.png"
-            alt="game screenshot"
-          />
-        </div>
 
-        <div class="feature">
-          <div class="feature-info margin-right">
-            <h2 class="feature-title">Level 2 - Auckland Airways</h2>
-            <p class="text">
-              This is Auckland Airways. In here, Kiwi is able to use planes to
-              land on. There will be clouds that you can bounce on! You will
-              encounter hedgehogs on this level, but do not be fooled by their
-              cuteness, these little guys are ready to take Kiwi down and they
-              will shoot their quills at him to do so. Your kiwi fruit will
-              destroy their quills, use that to your advantage! Some of these
-              hedgehogs will also chase you! Are you up for the challenge?
-            </p>
+          <!-- FEATURES  -->
+          <div class="feature reverse">
+            <div class="feature-info margin-left">
+              <h2 class="feature-title">Level 1 - Poacher's Forest</h2>
+              <p class="text">
+                Welcome to the Poacher's Forest! This is the first level that
+                Kiwi has to face in order to find his parents. Kiwi is able to
+                land on stone pillars to recover his flight energy. However, be
+                mindful of the vines and flying ferrets. Try throwing a kiwi at
+                'em to take them down! The gusts of wind will help Kiwi fy more
+                easily.
+              </p>
+            </div>
+            <img
+              class="screenshot"
+              src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk0LnBuZw==/347x500/9TrApr.png"
+              alt="game screenshot"
+            />
           </div>
-          <img
-            class="screenshot"
-            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk1LnBuZw==/347x500/P0sHZc.png"
-            alt="game screenshot"
-          />
-        </div>
 
-        <div class="feature reverse">
-          <div class="feature-info margin-left">
-            <h2 class="feature-title">Ceniza's Island</h2>
-            <p class="text">
-              This is the last level in Kiwi's journey. Help Kiwi fly through a
-              volcano island. You will face rising magma waves that you will
-              need to avoid, while also dodging the falling meteors. The meteors
-              will chase you, so prepare your kiwi fruit to knock them out. You
-              will get the chance to stop the falling meteors by shooting your
-              kiwi fruit at the active volcano. But, you must get the kiwi right
-              inside of the volcano or it will not work! Think you you can take
-              the heat and reunite Kiwi with his parents?
-            </p>
+          <div class="feature">
+            <div class="feature-info margin-right">
+              <h2 class="feature-title">Level 2 - Auckland Airways</h2>
+              <p class="text">
+                This is Auckland Airways. In here, Kiwi is able to use planes to
+                land on. There will be clouds that you can bounce on! You will
+                encounter hedgehogs on this level, but do not be fooled by their
+                cuteness, these little guys are ready to take Kiwi down and they
+                will shoot their quills at him to do so. Your kiwi fruit will
+                destroy their quills, use that to your advantage! Some of these
+                hedgehogs will also chase you! Are you up for the challenge?
+              </p>
+            </div>
+            <img
+              class="screenshot"
+              src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk1LnBuZw==/347x500/P0sHZc.png"
+              alt="game screenshot"
+            />
           </div>
-          <img
-            class="screenshot"
-            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk2LnBuZw==/347x500/JO2ogJ.png"
-            alt="game screenshot"
-          />
-        </div>
 
-        <!-- TEAM SOCIAL MEDIA -->
-        <div class="team-container">
-          <img
-            class="team-logo"
-            src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk1LnBuZw==/347x500/P0sHZc.png"
-            alt="team logo"
-          />
-          <div class="team-info margin-left">
-            <p class="game-label">Developed by</p>
-            <p class="game-title">Team Apex</p>
-            <p class="game-label medium">Support them on social media!</p>
-            <div>
-              <template id="social-media-template">
-                <li>
-                  <a class="social-link" href="#">
-                    <img class="social-icon" src="" alt="social media icon" />
-                  </a>
-                </li>
-              </template>
-              <ul id="socials" class="socials"></ul>
+          <div class="feature reverse">
+            <div class="feature-info margin-left">
+              <h2 class="feature-title">Ceniza's Island</h2>
+              <p class="text">
+                This is the last level in Kiwi's journey. Help Kiwi fly through
+                a volcano island. You will face rising magma waves that you will
+                need to avoid, while also dodging the falling meteors. The
+                meteors will chase you, so prepare your kiwi fruit to knock them
+                out. You will get the chance to stop the falling meteors by
+                shooting your kiwi fruit at the active volcano. But, you must
+                get the kiwi right inside of the volcano or it will not work!
+                Think you you can take the heat and reunite Kiwi with his
+                parents?
+              </p>
+            </div>
+            <img
+              class="screenshot"
+              src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk2LnBuZw==/347x500/JO2ogJ.png"
+              alt="game screenshot"
+            />
+          </div>
+
+          <!-- TEAM SOCIAL MEDIA -->
+          <div class="team-container">
+            <img
+              class="team-logo"
+              src="https://img.itch.zone/aW1hZ2UvMTA3Mzg3Ni82MTU2NTk1LnBuZw==/347x500/P0sHZc.png"
+              alt="team logo"
+            />
+            <div class="team-info margin-left">
+              <p class="game-label">Developed by</p>
+              <p class="game-title">Team Apex</p>
+              <p class="game-label medium">Support them on social media!</p>
+              <div>
+                <template id="social-media-template">
+                  <li>
+                    <a class="social-link" href="#">
+                      <img class="social-icon" src="" alt="social media icon" />
+                    </a>
+                  </li>
+                </template>
+                <ul id="socials" class="socials"></ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- FOOTER -->
+      <div include-html="../../components/footer.html"></div>
     </div>
-
-    <!-- FOOTER -->
-    <div include-html="../../components/footer.html"></div>
 
     <!-- SCRIPTS -->
     <script src="../../js/general.js"></script>
