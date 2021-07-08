@@ -128,6 +128,12 @@ a::visited {
   justify-content: flex-end;
 }
 
+.nav-logo {
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+}
+
 .nav-link,
 .sidenav-link {
   font-family: "Sarala", "Arial", sans-serif;
