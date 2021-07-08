@@ -57,11 +57,19 @@ const newsData = [
       "https://img.itch.zone/aW1nLzU4MjAyNDIucG5n/315x250%23c/5pGN%2FO.png",
   },
   {
-    title: "Post Title",
-    date: "Month DD, 20XX",
-    summary: "Post summary...",
+    title: "Soul Guard - Update",
+    date: "March 18, 2021",
+    summary:
+      "Team Soul Guard has been actively creating the groundwork for the Soul Guard to release on April 30th, 2021. More to come soon!",
     image:
       "https://img.itch.zone/aW1nLzU4MjAyNDIucG5n/315x250%23c/5pGN%2FO.png",
+  },
+  {
+    title: "Toy Kingdom 2 - Update",
+    date: "March 18, 2021",
+    summary:
+      "Toy Kingdom 2 is due to launch tomorrow March 18th, 2021. Toy Kingdom 2 is a sequel that has a lightning power system as well as combat with creatures of the Toy Kingdom world.",
+    image: "https://img.itch.zone/aW1nLzU0NTk5MTAucG5n/315x250%23c/BqPfbN.png",
   },
 ];
 

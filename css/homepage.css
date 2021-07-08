@@ -61,8 +61,9 @@ body {
 }
 
 .post-thumbnail {
-  width: 280px;
+  flex: 0 0 280px;
   height: 128px;
+  object-fit: cover;
 }
 
 .post-info {
@@ -124,7 +125,6 @@ body {
   .news-item {
     display: flex;
     flex-direction: column;
-    /* padding: 16px 0; */
   }
 
   .news-pad-left {
