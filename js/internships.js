@@ -68,20 +68,28 @@ addGames("game-template");
 // data for testimonials, modify as needed
 const testimonialData = [
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    author: "Author",
+    text: "This is a great group of people to interact with. You can tell how much they enjoy seeing people progress through the weeks. If you are still new to game designing, this is a great starting point.",
+    author: "Larson",
   },
   {
-    text: "Lorem ipsum dolor sit amet",
-    author: "Another Author",
+    text: "MoonRift provides a genuine experience at game design that is accessible to people with any level of experience or interest in Game Design. Learning hands-on with similar minded people provides exposure to the game development world that isn't like learning from a video or a classroom, giving you the opportunity to find your passion in the field.",
+    author: "Barrineu",
   },
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    author: "Placeholder Author",
+    text: "If you’re looking for an amazing chance to grow your skill sets alongside equally amazing people, come join the rocket to the moon at MoonRift Entertainment and see what you can accomplish. :)",
+    author: "Zwick",
   },
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    author: "Author with a long name",
+    text: "The amount of experience that I gained in 6 weeks was exponential. I enjoyed having a friendly competition with everyone which in turn led to a finished game that I'm more than happy to put on my resume. MoonRift was fair and easy to work with, I would definitely recommend being an intern for them.",
+    author: "Udave",
+  },
+  {
+    text: "Moonrift is a great place to meet new connections, team build and make great games together.",
+    author: "Sierra",
+  },
+  {
+    text: "Are you ready to make an amazing video game that your friends, family, and the world will be amazed by? If so, consider joining MoonRift today! I loved my experience here, I really can't recommend this program enough.",
+    author: "Bryant",
   },
 ];
 
