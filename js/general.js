@@ -105,4 +105,4 @@ function addFooterSocials(templateId) {
 }
 
 // Load footer
-includeHTML().then(addFooterSocials("footer-social-template"));
+includeHTML(); //.then(addFooterSocials("footer-social-template"));
