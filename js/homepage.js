@@ -68,7 +68,7 @@ const newsData = [
     title: "Toy Kingdom 2 - Update",
     date: "March 18, 2021",
     summary:
-      "Toy Kingdom 2 is due to launch tomorrow March 18th, 2021. Toy Kingdom 2 is a sequel that has a lightning power system as well as combat with creatures of the Toy Kingdom world.",
+      "Toy Kingdom 2 is due to launch on March 18th, 2021. Toy Kingdom 2 is a sequel that has a lightning power system as well as combat with creatures of the Toy Kingdom world.",
     image: "https://img.itch.zone/aW1nLzU0NTk5MTAucG5n/315x250%23c/BqPfbN.png",
   },
 ];
