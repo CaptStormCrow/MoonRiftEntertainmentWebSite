@@ -6,7 +6,7 @@ const gameData = [
     genres: "Arcade",
     price: "FREE TO PLAY",
     image: "https://img.itch.zone/aW1nLzYxNTY2MDgucG5n/315x250%23c/ay6JFm.png",
-    link: "./pages/game_pages/kiwi.html",
+    link: "./game_pages/kiwi.html",
   },
   {
     title: "Foo-dyssey",
@@ -73,7 +73,7 @@ const testimonialData = [
   },
   {
     text: "MoonRift provides a genuine experience at game design that is accessible to people with any level of experience or interest in Game Design. Learning hands-on with similar minded people provides exposure to the game development world that isn't like learning from a video or a classroom, giving you the opportunity to find your passion in the field.",
-    author: "Barrineu",
+    author: "Barrineau",
   },
   {
     text: "If you’re looking for an amazing chance to grow your skill sets alongside equally amazing people, come join the rocket to the moon at MoonRift Entertainment and see what you can accomplish. :)",
