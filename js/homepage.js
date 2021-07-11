@@ -2,18 +2,19 @@
 // Might need text or other data so featuredData is an array of objects
 const featuredData = [
   {
-    image: "https://moonrift.files.wordpress.com/2021/04/soulguardofficial.png",
+    image: "./images/slideshow/tk2.jpg",
   },
   {
-    image:
-      "https://moonrift.files.wordpress.com/2021/03/resized-toy-kingdom-2-1.png?w=1024",
+    image: "./images/slideshow/soul_guard.jpg",
   },
   {
-    image: "https://moonrift.files.wordpress.com/2021/03/raptornest.png?w=1024",
+    image: "./images/slideshow/soul_guard_screenshot.gif",
   },
   {
-    image:
-      "https://moonrift.files.wordpress.com/2021/03/lightningstone.png?w=840",
+    image: "./images/slideshow/kiwi2.jpg",
+  },
+  {
+    image: "./images/slideshow/kiwi.jpg",
   },
 ];
 
@@ -44,6 +45,7 @@ function changeBg(el, imgPath) {
   el.style.background = imgString;
   el.style.backgroundPosition = "center";
   el.style.backgroundRepeat = "no-repeat";
+  el.style.backgroundSize = "contain";
 }
 
 // ===================== NEWS TEMPLATE =====================
