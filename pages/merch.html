@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MoonRift Entertainment</title>
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/ico"
+      href="../assets/icons/favicon/favicon-dark.ico"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/merch.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Open Sans font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Sarala font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- SIDENAV -->
+    <div include-html="../components/sidenav.html"></div>
+
+    <div id="main">
+      <!-- NAVIGATION BAR -->
+      <div include-html="../components/navbar.html"></div>
+
+      <!-- MERCH SECTION -->
+      <div class="main-container">
+        <div class="main-content">
+          <h2 class="title">Official Merchandise</h2>
+          <p class="text merch-link">
+            <a href="" target="_blank">MERCH LINK HERE</a>
+          </p>
+          <!-- MERCH ITEM TEMPLATE -->
+          <template id="merch-template">
+            <li class="merch-item">
+              <img class="merch-img" src="" alt="merchandise" />
+              <p class="merch-title"></p>
+            </li>
+          </template>
+          <ul id="merchs" class="merch-section"></ul>
+      </div>
+
+      <!-- FOOTER -->
+      <div include-html="../components/footer.html"></div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="../js/general.js"></script>
+    <script src="../js/merch.js"></script>
+  </body>
+</html>
